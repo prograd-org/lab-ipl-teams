@@ -70,5 +70,4 @@ You can find the full list of [IPL TEAMS](https://www.iplt20.com/) on google. In
 **Note** that we are iterating over arrays to show all the information: `name`, `best-players`, `phoneNumber` and `image` of every team.
 <!-- ::: -->
 
-
 Happy Coding ProGrad ❤️!
