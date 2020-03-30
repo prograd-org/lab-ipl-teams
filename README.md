@@ -67,5 +67,8 @@ You can find the full list of [IPL TEAMS](https://www.iplt20.com/) on google. In
 <!-- :::info -->
 **Note** that we are iterating over arrays to show all the information: `name`, `best-players`, `phoneNumber` and `image` of every team.
 <!-- ::: -->
+## Expected Ouput:
+![ipl-1](https://i1.faceprep.in/ProGrad/ts-ipl-team1.png)
+![ipl-2](https://i1.faceprep.in/ProGrad/ts-ipl-team2.png)
 
 Happy Coding ProGrad ❤️!
