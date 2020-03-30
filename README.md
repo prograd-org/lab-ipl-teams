@@ -1,28 +1,74 @@
-# LabProgradContacts
+![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+# ProGrad Lab | IPL TEAMS
 
-## Development server
+## Learning Goals
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+After this lesson, you will be able to:
 
-## Code scaffolding
+- Create a static Angular application with Angular CLI.
+- Build an Angular application with one component.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Requirements
 
-## Build
+- Fork this repo.
+- Clone this repo.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Submission
 
-## Running unit tests
+Upon completion, run the following commands:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+$ git add .
+$ git commit -m "done"
+$ git push origin master
+```
 
-## Running end-to-end tests
+Navigate to your repo and create a pull request from your master branch to the original repository's master branch.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+In the pull request name, add your Prograd id, name, and last name separated by a dash "-".
 
-## Further help
+## Deliverables
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# lab-ipl-teams
+You need to generate the starter code and fill it with the necessary code to satisfy the requirements described below.
+
+## Introduction
+
+In this lesson we are going to work with Angular for the first time. The goal here is to work on a small projects where you can practice the concepts we've learned thus far.
+
+## Starter Code
+
+To generate the starter code, follow the steps given below
+
+- To create a new application,
+    - Open your ubuntu or cmd terminal and execute the following command
+      - ```ng new app-name```
+      - for example, ng new super-wars
+    - To create a new component, execute the command 
+      - ``` ng generate component component-name```
+      - example, ng generate component contacts
+      
+## How to run
+
+- To run the project go to your ubuntu terminal or VScode editor
+    - open the ubuntu or cmd terminal or inside the vscode editor
+    - run the command following command
+    - ```ng serve --open or ng serve -o```
+    
+## PROGRESSION #1:
+
+We are going to create a Dashboard with IPL teams of recent years. In this case, we will need to create one component, that will contain an array of teams, with the following fields:
+
+- `name` of the team.
+- `website` of the team.
+- `phoneNumber` of the team.
+- `image` depicts the IPL team badge(logo).
+
+You can find the full list of [IPL TEAMS](https://www.iplt20.com/) on google. In our application we have to show at least six of them. The result could be something like this:
+
+<!-- :::info -->
+**Note** that we are iterating over arrays to show all the information: `name`, `best-players`, `phoneNumber` and `image` of every team.
+<!-- ::: -->
+
+
+Happy Coding ProGrad ❤️!
