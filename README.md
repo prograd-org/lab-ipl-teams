@@ -65,7 +65,7 @@ We are going to create a Dashboard with IPL teams from the recent years. In this
 You can find the full list of [IPL TEAMS](https://www.iplt20.com/) on google. In our application we have to show at least six of them. The result could be something like this:
 
 <!-- :::info -->
-**Note** that we are iterating over arrays to show all the information: `name`, `best-players`, `phoneNumber` and `image` of every team.
+**Note** that we are iterating over arrays to show all the information: `name`, `best-players`, `phoneNumber` and `image` of every team. You can find the images inside src/assets folder. Copy them into your assets folder
 <!-- ::: -->
 ## Expected Ouput:
 ![ipl-1](https://i1.faceprep.in/ProGrad/ts-ipl-team1.png)
