@@ -62,6 +62,8 @@ We are going to create a Dashboard with IPL teams from the recent years. In this
 - `phoneNumber` of the team.
 - `image` depicts the IPL team badge(logo).
 
+
+
 You can find the full list of [IPL TEAMS](https://www.iplt20.com/) on google. In our application we have to show at least six of them. The result could be something like this:
 
 <!-- :::info -->
